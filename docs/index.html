@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>CodeGuide | 程序员编码指南</title>
+  <title>CodeCraft | 编程随笔</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -24,19 +24,21 @@
     var gitalkConfig = {
       clientID: '4a657aa4ae6c0f1862a1',
       clientSecret: '94793d5bac0c884a8798ea941f7c5bc9fb004720',
-      repo: 'fuzhengwei.github.io',
-      owner: 'fuzhengwei',
-      admin: ["fuzhengwei"],
+      repo: 'clemnaliam.github.io',
+      owner: 'clemnaliam',
+      admin: ["clemnaliam"],
       distractionFreeMode: false
     };
     window.$docsify = {
-      name: '小傅哥',
-      repo: 'https://github.com/fuzhengwei/fuzhengwei.github.io',
+      name: 'Clemna',
+      repo: 'https://github.com/ClemnaLiam',
       auto2top: true,
       coverpage: true,
       loadSidebar: true,
       maxLevel: 4,
       subMaxLevel: 2,
+	  sidebarDisplayLevel: 0, // 关键配置，0 表示全部折叠
+	  //sidebarDisplayLevel: 2,  // 控制展开层级
       search: {
         paths: 'auto',
         placeholder: '🔍 Type to search ',
@@ -79,6 +81,7 @@
   </script>
 
 <script src="/assets/js/md5.js"></script>
+
 <script src="/assets/js/docsify.min.js"></script>
 <script src="/assets/js/gitalk.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
@@ -86,5 +89,6 @@
 <script src="/assets/js/zoom-image.js"></script>
 <script src="/assets/js/prism-bash.js"></script>
 <script src="/assets/js/prism-java.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 </body>
 </html>
